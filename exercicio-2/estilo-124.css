@@ -1,0 +1,62 @@
+#header
+{
+    color: black;  
+    background-color: rgb(70, 243, 243);
+    border: 2px solid black;
+    width: 99,5%;
+    margin-bottom: 10px;
+    height: 50pt;
+}
+
+#header:hover
+{
+    color: aliceblue;
+    background-color: blue;
+}
+
+.Corpo
+{
+    border: 2px solid black;
+}
+
+.rodape
+{
+    border: 2px solid black;
+}
+
+.Corpo a
+{
+    border: 2px solid black;
+    width: 97%;
+    display: block;
+    padding: 9px;
+    margin-bottom: 5px;
+}
+
+.avatar
+{
+    border: 2px solid black;
+    width: 14%;
+}
+
+.avatar, .softwares
+{
+    display: inline-block;
+    margin-right: 200px;
+}
+
+.softwares
+{
+    border: 2px solid black;
+    width: 300px;
+}
+
+table
+{
+    width: 100%;  
+}
+
+.media, .media2
+{
+    display: inline-block;  
+}

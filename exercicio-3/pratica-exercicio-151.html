@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UFT-8">
+    <title>Prática CSS e JavaS - Exercicio 1.5.1</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    
+</head>
+<body onload="loadFromLocalStorage()">
+    <section id="menu">
+        <table class="adicao-de-notas" border="1">
+            <tr>
+                <th rowspan="2">Aluno</th>
+                <th colspan="4">Pontuação</th>
+            </tr>
+            <tr>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JavaScript</th>
+            </tr>
+            <tr>
+                <td><input type="text" id="aluno"></td>
+                <td><input type="number" id="nota1"></td>
+                <td><input type="number" id="nota2"></td>
+                <td><input type="number" id="nota3"></td>
+            </tr>
+            <tr>
+                <tr>
+                    <input type="submit" value="Atualizar" onclick="alunonota()">
+                </tr>
+            </tr>
+        </table>
+        <br>
+        <table border="1" id="grade-boletim">
+            <tr>
+                <th width="180">Aluno</th>
+                <th width="180">Total</th>
+                <th width="180">Média</th>
+                <th width="180">Resultado</th>
+            </tr>
+        </table>
+        <div class="container-save-grid">
+            <button type="button" onclick="saveGridToLocalStorage()">Salvar</button>
+        </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+#formulario{
+    position: absolute;
+    display: block;
+}
+
+#formulario label
+{
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+    font-weight:bold ;
+}
+
+#formulario input.nome
+{
+  position: absolute; 
+  left: 95px; 
+  top: 23px;
+  width: 255px;
+}
+
+#formulario input.tel
+{
+    position: absolute; 
+    left: 95px;
+    margin-top: 2px;
+    width: 225px;
+}
+
+#formulario textarea.mensg
+{
+    position: absolute; 
+}
+
+#formulario input.btn_submit
+{
+    border-style:dashed;
+    position:absolute;
+    bottom: 0.5em;
+    right:10px;
+    color:white;
+    background-color:black;
+}

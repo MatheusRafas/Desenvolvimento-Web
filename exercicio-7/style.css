@@ -1,0 +1,80 @@
+
+.menu { 
+    border: 1px solid black;
+    margin: 5px;
+    grid-area: menu;
+}
+.logotipo{
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+    grid-area: logotipo;
+}
+.lateral{
+    border: 1px solid black;
+    margin: 5px;
+    grid-area: lateral;
+}
+
+.corpo{
+    border: 1px solid black;
+    margin: 5px;
+    grid-area: corpo;
+}
+.pesquisa{
+    border: 1px solid black;  
+    margin: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+.cat{
+    border: 1px solid black;  
+    margin: 5px;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+}
+
+#pes{
+    border: 1px solid black;
+}
+
+.n1, .n2, .n3{
+    border: 1px solid black;
+    margin: 5px
+}
+
+@media screen and (max-width:480px){
+    .conteiner{
+        display: grid;
+        grid-template-areas: 
+        "logotipo"
+        "menu"
+        "corpo"
+        "lateral"
+        ;
+
+        justify-content: center;
+    }
+    .menu{
+        text-align: center;
+        height: 120px;
+    }
+    .logotipo{
+        text-align: center;
+        height: 120px
+    }
+    .lateral{
+        justify-content: start;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .conteiner{
+        display: grid;
+        grid-template-areas:
+        "logotipo menu"
+        "lateral corpo";
+    }
+}
